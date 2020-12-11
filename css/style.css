@@ -1,0 +1,431 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;600&family=Texturina:ital,wght@0,700;0,900;1,100&display=swap');
+/***************HEADER******************/
+.company-name{
+        height: 50px;
+        background-color: black;
+        display: flex;
+        justify-content: space-between;
+        padding: 20px;
+ }
+
+.logo img{
+    width: 50px;
+}
+
+.logo h1{
+    position: absolute;
+    left: 4%;
+    top: 2%;
+    color: white;
+    text-transform: uppercase;
+}
+
+.navAncre{
+    margin-left: 120px;
+}
+
+
+nav a{
+    text-decoration: none;
+    transition: 1ms;
+    color: orange;
+    padding: 15px;
+    line-height: 45px;
+    text-transform: uppercase;
+}
+
+.under a{
+    text-decoration: underline;
+}
+
+nav a:hover{
+    transition-duration: 1ms;
+    color: white;
+    font-size: 20px;
+}
+
+.search input{
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.search button{
+    height: 40px;
+    text-align: center;
+    text-transform: uppercase;
+    border: 1px orange solid;
+    background-color: black;
+    color: orange;
+}
+
+.quality img{
+    width: 100%;
+}
+
+.quality h5{
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    color: white;
+    font-size: 45px;   
+}
+
+.quality p{
+    position: absolute;
+    top: 50%;
+    left: 31.5%;
+    color: white;   
+}
+
+.quality a{
+    position: absolute;
+    top: 54%;
+    left: 70%;
+    color: orange;
+    text-decoration: none;
+    transition: 1ms;   
+}
+
+.quality a:hover{
+    transition-duration: 1ms;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.style{
+    text-align: center;
+    height: 50px;
+    background-color: white;
+    
+    
+}
+
+
+.style i{
+    font-size: 60px;
+    color: rgb(6, 53, 6);
+    transition: 1ms;
+}
+
+.style i:hover{
+    transition-duration: 1ms;
+    color: red;
+    font-size: 80px;
+}
+
+
+.project{
+    height: 80px;
+    background-color: black;
+}
+
+.project h2{
+    color: rgb(206, 141, 21);
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+h2{
+    text-transform: uppercase;
+}
+
+.project1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.card1{
+    width: 100%;
+    padding-left: 10%;  
+}
+
+
+.card1 img{
+    width: 60%;
+    height: 50%;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.card2 img{
+    width: 58%;
+    height: 50%;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+.card3 img{
+    width: 60%;
+    height: 50%;
+    margin: 20px;
+    border: 5px solid black;
+    border-radius: 10px;
+}
+
+
+.card1 p, h5{
+    width: 45%;
+}
+
+.card2 p, h5{
+    width: 45%;
+}
+
+
+.card3 p, h5{
+    width: 45%;
+}
+
+
+
+.company{
+    height: 80px;
+    background-color: black;
+}
+
+.company h2{
+    color: rgb(206, 141, 21);
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+
+.employe img{
+    width: 150px;
+}
+
+.worker1{
+    padding: 10px;
+    float: left;
+    margin-left: 80px;
+}
+
+.worker1 img{
+ float: left;
+ margin: 20px;
+}
+.worker1 p{
+    width: 500px;
+}
+
+
+
+
+
+.worker2{
+    padding: 10px;
+    float: left;
+    margin-left: 80px;
+}
+
+.worker2 img{
+    float: left;
+    margin: 20px;
+   }
+   .worker2 p{
+       width: 500px;
+   }
+   
+
+
+
+.worker3{
+    padding: 10px;
+    float: left;
+    margin-left: 80px;
+}
+
+.worker3 img{
+    float: left;
+    margin: 20px;
+   }
+.worker3 p{
+       width: 500px;
+   }
+   
+
+.worker4{
+    padding: 10px;
+    float: left;
+    margin-left: 80px;
+}
+
+.worker4 img{
+    float: left;
+    margin: 20px;
+   }
+.worker4 p{
+       width: 500px;
+   }
+
+
+
+.worker5{
+    padding: 10px;
+    float: left;
+    margin-left: 80px;
+}
+
+.worker5 img{
+    float: left;
+    margin: 20px;
+   }
+.worker5 p{
+       width: 500px;
+   }
+
+
+
+
+.worker6{
+    padding: 10px;
+    float: left;
+    margin-left: 80px;
+}
+
+.worker6 img{
+    float: left;
+    margin: 20px;
+   }
+.worker6 p{
+       width: 500px;
+   }  
+
+.clear{
+    clear: both;
+}
+
+
+.contact-us{
+    background-color: black;
+    height: 80px;
+}
+
+.contact-us h2{
+    color: rgb(206, 141, 21);
+    text-align: center;
+    line-height: 70px;
+    font-size: 30px;
+}
+
+
+.needs{
+    float: left;
+    margin-left: 5%;
+}
+
+.needs-validation{
+    width: 100%;
+}
+
+.needs-validation input{
+    width: 200px;
+}
+
+.maps{
+ float: left;
+ margin: 30px;
+ margin-left: 25%;
+ border: 5px solid black;
+ border-radius: 10px;
+}
+
+.maps iframe{
+    height: 400px;
+    width: 500px;
+}
+
+.clear{
+    clear: both;
+}
+
+.col-md-4{
+    margin: 30px;
+}
+
+.col-md-4 input{
+    width: 600px;
+    padding: 2%;
+}
+
+
+.col-md-6 input{
+    width: 620px;
+    margin: 30px;
+    margin-left: 30px;
+    height: 40px;
+}
+
+.col-md-3 input{
+    width: 620px;
+    margin: 10px;
+    margin-left: 30px;
+    height: 40px;
+}
+
+.col-12 textarea{
+    width: 620px;
+    margin: 10px;
+    height: 30px;
+    margin-left: 30px;
+}
+
+.form-check-label{
+    margin: 0 auto;
+}
+
+.primary{
+    width: 600px;
+    height: 40px;
+    background-color: black;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    margin: 10px;
+    margin-left: 30px;
+}
+
+label{
+    width: 20px;
+    margin-right: 10px;
+}
+
+
+footer{
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p{
+    padding-left: 30px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.icon{
+    padding: 25px;
+}
+
+.icon a{
+    font-size: 25px;
+    color: white;
+    padding-right: 20px;
+    transition: 1ms;
+}
+
+.icon a:hover{
+    transition-duration: 1ms;
+    font-size: 35px;
+    color: blue;
+}
